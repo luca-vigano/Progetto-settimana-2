@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .container {
     width: 100%;
+    background-color: #E9EDEE;
 }
 
 .first-logo {
@@ -43,5 +45,41 @@ nav ul li {
 }
 
 .greenbox {
-    
+    background-image: url("../img/bg-image.png");
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background-size: contain;
+    margin: 0 15px
+
+}
+
+.greenbox h1 {
+    margin: 30px
+}
+
+.fourimg {
+    background-color: white;
+ 
+}
+
+.imagecontainer img {
+    display: inline-block;
+    width: 23%;
+    height: 30em;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.imagecontainer {
+    text-align: center;
+    background-color: white;
+}
+.shop {
+    margin-left: 10px;
+    color: #0D5662;
+}
+
+.bianco {
+    margin: 
 }
