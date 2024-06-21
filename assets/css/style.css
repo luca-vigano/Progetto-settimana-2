@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.first-logo {
+    background-color: #222A38;
+}
+
+.first-logo img {
+    width: 7%;
+}
+
+.second-logo {
+    background-color: #222A38;
+
+}
+
+.navbar {
+    background-color: #333F50;
+    color: white;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 1%;
+}
+
+.orangestrip {
+    background-color: #EC6019 ;
+    color: white;
+    text-align: center;
+    margin: 1%;
+    padding: 0.5% 0;
+}
+
+.greenbox {
+    
+}
