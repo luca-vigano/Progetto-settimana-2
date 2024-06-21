@@ -17,11 +17,18 @@
 
 .first-logo img {
     width: 7%;
+    margin: 15px 25px;
 }
 
 .second-logo {
     background-color: #222A38;
+    text-align: center;
+    padding: 50px;
 
+}
+
+.second-logo img {
+    width: 200px;
 }
 
 .navbar {
@@ -34,14 +41,21 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 0 1%;
+    font-weight: bold;
+    margin: 10px 0
 }
 
 .orangestrip {
-    background-color: #EC6019 ;
+    background-color: #EC6019;
     color: white;
     text-align: center;
-    margin: 1%;
+    margin: 1em auto;
     padding: 0.5% 0;
+    width: 97%;
+}
+
+.find {
+    padding: 15px 10px 0px 20px;
 }
 
 .greenbox {
@@ -50,7 +64,8 @@ nav ul li {
     color: white;
     padding: 40px;
     background-size: contain;
-    margin: 0 15px
+    margin: 0 auto;
+    width: 97%;
 
 }
 
@@ -60,7 +75,7 @@ nav ul li {
 
 .fourimg {
     background-color: white;
- 
+
 }
 
 .imagecontainer img {
@@ -77,9 +92,10 @@ nav ul li {
     text-align: center;
     background-color: white;
 }
+
 .shop {
     margin-left: 10px;
-    color: #0D5662;
+    color: #235670;
 }
 
 .bianco {
@@ -91,9 +107,21 @@ nav ul li {
 
 .imgrettangolo {
     text-align: center;
+    margin: 3em 0;
 }
 
 .imgrettangolo img {
     object-fit: cover;
     width: 97%;
+}
+
+.back {
+    background-color: #333F50;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.back a {
+    color: white;
 }
