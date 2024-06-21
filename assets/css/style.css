@@ -69,6 +69,8 @@ nav ul li {
     height: 30em;
     object-fit: cover;
     border-radius: 15px;
+    box-shadow: 8px 10px 35px -15px #000000;
+    margin: 8px
 }
 
 .imagecontainer {
@@ -81,5 +83,17 @@ nav ul li {
 }
 
 .bianco {
-    margin: 
+    margin: 1em auto;
+    width: 97%;
+
+
+}
+
+.imgrettangolo {
+    text-align: center;
+}
+
+.imgrettangolo img {
+    object-fit: cover;
+    width: 97%;
 }
