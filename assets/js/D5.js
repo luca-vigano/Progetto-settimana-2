@@ -50,8 +50,10 @@ function positionPet(stringa) {
   let cutString = stringa.slice(1);
   cutString.push(firstWord);
   console.log(cutString)
-  for (let i = 0; i < cutString.length; i++)
+  for (let i = 0; i < cutString.length; i++){
     pets[i] = cutString[i]
+  }
+    
 }
 
 positionPet(pets)
@@ -245,8 +247,66 @@ for (let i = 0; i < charactersArray.length; i++) {
       newArray.push(26);
       break;
   }
-
-
-
 }
  console.log(newArray)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  ESERCIZIO 4
+    // Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
+
+
+console.log("***** ESERCIZIO 20*****")
+
+
+const pets2 = ['dog', 'cat', 'hamster', 'redfish'];
+
+function moveFirstElementToLastPosition(){
+  // 1 prendere prima parola
+  let firstElement = pets2[0];
+  let arrWithoutFirstElement = pets2.slice(1);
+  arrWithoutFirstElement.push(firstElement);
+  console.log(arrWithoutFirstElement.push(firstElement))
+}
+
+moveFirstElementToLastPosition()
+
+function moveFirstElementToLastPosition2(arr){
+  // 1 prendere prima parola
+  let firstElement = arr[0];
+  let arrWithoutFirstElement = arr.slice(1);
+  return [...arrWithoutFirstElement,firstElement]
+}
+console.log("nuovo ris",moveFirstElementToLastPosition2(pets2))
+
+function positionPet(stringa) {
+  let firstWord = stringa[0];
+  let cutString = stringa.slice(1);
+  cutString.push(firstWord);
+  console.log(cutString)
+  for (let i = 0; i < cutString.length; i++){
+    pets[i] = cutString[i]
+  }
+    
+}
